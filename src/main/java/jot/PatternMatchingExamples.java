@@ -4,13 +4,14 @@ public class PatternMatchingExamples {
 	public static void main(String[] args) {
 		Zoo zoo = new Zoo(new Monkey("Jake", 5), new Donkey("Bob", 3));
 		
+		System.out.println("With new pattern matching :");
+		
+		animalAge(zoo);	
+		
 		System.out.println("Old Code :");
 		
 		animalAgeOld(zoo);
-		
-		System.out.println("With new pattern matching :");
-		
-		animalAge(zoo);		
+			
 	}
 	
 	/**
