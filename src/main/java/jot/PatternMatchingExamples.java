@@ -15,7 +15,6 @@ public class PatternMatchingExamples {
 	
 	/**
 	 * Version without the new pattern matching feature
-	 * @param o
 	 */
 	public static void animalAgeOld(Object o) {
 		if (o instanceof Zoo z ) {
@@ -31,7 +30,6 @@ public class PatternMatchingExamples {
 	
 	/**
 	 * Version with new pattern matching feature
-	 * @param o
 	 */
 	public static void animalAge(Object o) {
 		if (o instanceof Zoo (Monkey(String mName,int mAge) m, Donkey(String dName,int dAge) d )) {
