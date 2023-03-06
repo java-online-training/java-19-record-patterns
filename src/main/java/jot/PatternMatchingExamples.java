@@ -1,7 +1,5 @@
 package jot;
 
-import java.util.*;
-
 public class PatternMatchingExamples {
 	public static void main(String[] args) {
 		Zoo zoo = new Zoo(new Monkey("Jake", 5), new Donkey("Bob", 3));
