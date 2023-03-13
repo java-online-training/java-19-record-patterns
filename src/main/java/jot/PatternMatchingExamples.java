@@ -43,5 +43,3 @@ public class PatternMatchingExamples {
 record Monkey(String name, int age) {};
 record Donkey(String name, int age) {};
 record Zoo(Monkey monkey, Donkey donkey){};
-
-
